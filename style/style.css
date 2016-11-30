@@ -31,17 +31,29 @@ header {
     top: 0;
     background: #fff;
     width: 100%;
-    height: 70px;
+    height: 50px;
     -webkit-box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
     -moz-box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
     box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
+    overflow: hidden;
+}
+header.info{
+    -webkit-box-shadow: -1px 5px 25px -1px rgba(221,221,221,0.7);
+    -moz-box-shadow: -1px 5px 25px -1px rgba(221,221,221,0.7);
+    box-shadow: -1px 5px 25px -1px rgba(221,221,221,0.7);
+}
+header  a > img{
+    width: 85px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12px;
 }
 .KV{
     position: absolute;
     z-index: 1;
     top: 0;
     width: 100%;
-    height: 375px;
+    height: 355px;
     background: #c5dd36;
 }
 .index_hr{
@@ -176,4 +188,46 @@ footer > p{
 .life > iframe
 {
     margin-bottom: 50px;
+}
+/*-----------------------------work內頁------------------------------*/
+.work_KV{
+    position: absolute;
+    z-index: 1;
+    top: 50;
+    width: 100%;
+    height: 480px;
+    background: url(../images/ctbc_antidrug/top_img.jpg)center center;
+    background-size: cover;
+}
+.work_KV .title{
+    position: absolute;
+    z-index: 3;
+    width: 650px;
+    height: 210px;
+    top: 400px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+}
+.work_KV .title > span{
+    display: block;
+    background: #c5dd36;
+    border: 3px solid #c5dd36;
+    width: 36px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.work_KV .title > h1{
+    font-size: 28px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.work_KV .title > h2{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: -10px;
 }
