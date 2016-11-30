@@ -44,40 +44,65 @@ header {
     height: 375px;
     background: #c5dd36;
 }
-/*---work---*/
-.work{
+.index_hr{
+    max-width: 1000px;
+    display: block;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 60px auto;
+}
+/*---footer---*/
+footer{
+    height: 70px;
+    background: #ddd;
+    text-align: center;
+}
+footer > p{
+    line-height: 70px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+/*---section---*/
+.work, .life{
         height: auto;
         width: 100%;
         margin: 0 auto;
-        margin-top: 305px;
         text-align: center;
+        max-width: 1000px;
+        margin-bottom: 50px;
     }
-.work > h1{
+.work{
+    margin-top: 305px;
+}
+.work > h1, .life > h1{
         font-size: 30px;
         padding-top: 50px;
         letter-spacing: 2px;
     }
-.work > h2{
+.work > h2, .life > h2{
         font-size: 15px;
         margin-top: -20px;
+        letter-spacing: 2px;
+        font-weight: normal;
+        margin-bottom: 20px;
     }
-.work_list{
+/*---work list---*/
+.work .work_list{
         text-align: left;
         margin: 0 auto;
-        margin-top: 20px;
     }
-.work_list li{
+.work .work_list li{
     display: block;
     text-align: left;
 }
-.work_list li a h3{
+.work .work_list li a h3{
     font-weight: normal;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 5px;
     color: #000;
 }
-.work_list li a span{
+.work .work_list li a span{
     letter-spacing: 1px;
     display: block;
     font-size: 12px;
@@ -88,7 +113,7 @@ header {
     .work{
         max-width: 1000px;
     }
-    .work_list{
+    .work .work_list{
         display: inline-block;
         overflow: hidden;
     }
@@ -130,19 +155,25 @@ header {
         margin-bottom: 30px;
         float: none;
         width: 100%;
+
     }
 }
 @media screen and (max-width: 639px) {
-    .work_list{
+    .work .work_list{
         text-align: center;
         margin: 0 20px;
     }
-    .work_list li a > img{
+    .work .work_list li a > img{
         width: 100%;
     }
-    .work_list li{
+    .work .work_list li{
         margin-bottom: 30px;
         float: none;
         width: 100%;
     }
+}
+/*---life---*/
+.life > iframe
+{
+    margin-bottom: 50px;
 }
