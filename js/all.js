@@ -31,7 +31,6 @@ var GoTop = function() {
 var init = function() {
     NVB = new NavBar();
     GO = new GoTop();
-    Vedio = new slider();
 }
 
 //------------- Jquery 載入後開始執行 -----

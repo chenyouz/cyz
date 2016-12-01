@@ -86,6 +86,9 @@ footer .gotop > img{
     bottom: 100px;
     right: 0;
 }
+footer .gotop > img:hover{
+    bottom: 120px;
+}
 footer .gotop{
     position: relative;
     max-width: 1000px;
@@ -218,10 +221,24 @@ footer .gotop{
 .work_KV{
     position: absolute;
     z-index: 1;
-    top: 50;
+    top: 50px;
     width: 100%;
     height: 480px;
+}
+.ctbc{
     background: url(../images/ctbc_antidrug/top_img.jpg)center center;
+    background-size: cover;
+}
+.eat{
+    background: url(../images/eat_girl/top_img.jpg)center center;
+    background-size: cover;
+}
+.choice{
+    background: url(../images/choice/top_img.jpg)center center;
+    background-size: cover;
+}
+.owlpass{
+    background: url(../images/owlpass/top_img.jpg)center center;
     background-size: cover;
 }
 .work_KV .title{
@@ -346,6 +363,12 @@ article .img_two .right{
     width: 450px;
     float: right;
 }
+article .logotype > img{
+    display: block;
+    margin: 0 auto;
+    width: 530px;
+    margin-bottom: 20px;
+}
 @media screen and (min-width: 1024px){
     article{
         max-width: 1000px;
@@ -358,6 +381,81 @@ article .img_two .right{
         float: right;
         max-width: 500px;
     }
+}
+article .color > h5{
+    font-size: 15px;
+    margin: 10px 0;
+}
+article .color > ul{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+article .color > ul li{
+    display: block;
+    float: left;
+    overflow: hidden;
+    height: 35px;
+    margin: 0 20px 20px 0;
+}
+article .color > ul li span,article .color > ul li p{
+    float: left;
+    margin: 0;
+}
+article .color > ul li p{
+    line-height: 30px;
+}
+article .color > ul li span{
+    display: block;
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    -webkit-box-shadow: 4px 4px 2px 0px rgba(219,219,219,1);
+    -moz-box-shadow: 4px 4px 2px 0px rgba(219,219,219,1);
+    box-shadow: 4px 4px 2px 0px rgba(219,219,219,1);
+}
+@media screen and (max-width: 639px) {
+    article .color{
+        margin-left: 20px;
+    }
+}
+/*------colors------*/
+/*---吃貨女子---*/
+.eat_bb1{
+    background: #9d0505;
+}
+.eat_bb2{
+    background: #fbdf00;
+}
+.eat_bb3{
+    background: #fbf5df;
+}
+.eat_bb4{
+    background: #fff;
+}
+.eat_tb1{
+    background: #440d0d;
+}
+.eat_tb2{
+    background: #9d0505;
+}
+/*---雲端男友---*/
+.owl_bb1{
+    background: #eeeeee;
+}
+.owl_bb2{
+    background: #00a9be;
+}
+.owl_bb3{
+    background: #ffdb49;
+}
+.owl_bb4{
+    background: #fff;
+}
+.owl_tb1{
+    background: #343434;
+}
+.owl_tb2{
+    background: #474747;
 }
 @media screen and (min-width: 640px) and (max-width: 1023px){
     article{
