@@ -46,7 +46,7 @@ header.info{
     position: fixed;
 }
 header  a > img{
-    width: 85px;
+    width: 79px;
     display: block;
     margin: 0 auto;
     margin-top: 12px;
@@ -58,6 +58,44 @@ header  a > img{
     width: 100%;
     height: 355px;
     background: #c5dd36;
+}
+.KV > img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.KV .infobox{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.KV .infobox .info{
+    position: absolute;
+    right: 25%;
+    top: -160px;
+}
+.KV .infobox .info > img{
+    width: 85px;
+    display: block;
+}
+.KV .infobox .info div{
+    margin-top: 20px;
+}
+.KV .infobox .info  div > a{
+    display: block;
+    color: #000;
+    font-size: 15px;
+}
+.KV .infobox .info  div > a:hover{
+    color: #dbdbdb;
+}
+.KV .infobox .info div > a i{
+    display: block;
+    margin: 0 20px 15px 0;
+}
+.KV .infobox .info a .fa:before{
+    margin-right: 8px;
 }
 .index_hr, .article_hr{
     max-width: 1000px;
@@ -165,7 +203,7 @@ footer .gotop{
         display: block;
         width: 290px;
         float: left;
-        margin: 10px 20px;
+        margin: 20px 20px;
     }
 }
 @media screen and (min-width: 640px) and (max-width: 1023px) {
