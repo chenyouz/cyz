@@ -27,7 +27,9 @@ body{
 html, body{
     height: 100%;
 }
-
+h5{
+    margin: 0;
+}
 /*-----------------------------------------------------------*/
 /*---nav---*/
 body.open{
@@ -37,11 +39,11 @@ body.close{
     overflow: hidden;
 }
 nav{
-    position: absolute;
+    position: fixed;
     text-align: center;
     z-index: 2;
     right: 0;
-    top: -310px;
+    top: 0;
     width: 50%;
     max-width: 300px;
     height: 100%;
@@ -78,28 +80,6 @@ nav ul li a i{
         max-width: none;
     }
 }
-/*nav .close{
-    position: absolute;
-    right: 0;
-    width: 50px;
-    height: 55px;
-    text-align: center;
-    cursor: pointer;
-}
-nav .close:hover{
-    background: #fff;
-}
-nav .close:hover i{
-    color: #c5dd36;
-}
-nav .close i{
-    font-size: 30px;
-    color: #fff;
-}
-nav .close i:before{
-    display: block;
-    margin-top: 15px;
-}*/
 /*---header---*/
 header {
     position: relative;
@@ -137,11 +117,11 @@ header .nav i{
     color: #c5dd36;
     font-size: 35px;
 }
-header .nav:hover{
-    background: #c5dd36;
-}
 header .nav:hover i{
     color: #fff;
+}
+header .nav:hover{
+    background: #c5dd36;
 }
 header .nav i:before{
     display: block;
@@ -495,6 +475,9 @@ article{
     margin-top: 690px;
     overflow: hidden;
 }
+.about{
+    margin-top: 0;
+}
 article .img_left, article .img_one, article .text, article .img_two{
     margin-bottom: 50px;
 }
@@ -511,7 +494,7 @@ article .img_left > div > h5, article .text > h5{
 }
 article .img_left > div > p, article .text > p{
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.8;
     color: #8b8b8b;
 }
 article .img_one > img{
@@ -682,6 +665,9 @@ article .color > ul li span{
     article .img_two .left{
         margin-bottom: 50px;
     }
+    article .img_left, article .img_one, article .text, article .img_two{
+    margin-bottom: 60px;
+}
 }
 /*-----------------------------info------------------------------*/
 section.info{

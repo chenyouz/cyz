@@ -1,0 +1,52 @@
+- var header = true
+doctype html
+html(lang='en')
+    include ./jade/head.jade
+    div.KV  
+        img(src="images/grapefruit.png", alt="")
+        div.infobox
+            div.info
+                img(src="images/logo2.png", alt="")
+                div
+                    a(href="tel:+886912810615")
+                        i.fa.fa-phone(aria-hidden='true') 0912810615
+                    a(href="mailto:chenyouz@outlook.com")
+                        i.fa.fa-envelope(aria-hidden='true') chenyouz@outlook.com
+                    a(href="http://www.cyz.ninja/")
+                        i.fa.fa-link(aria-hidden='true') cyz.ninja
+    section.work
+        h1 ABOUT
+        h2 關於
+    article.about
+        div.img_left
+            img(src="images/hi.jpg", alt="")
+            div
+                p 
+                    | 1990.12.21生
+                    br
+                    | 2012.6於愛爾達科技視覺設計部實習
+                    br
+                    | 2013.6畢業於國立東華大學藝術與設計學系
+                    br
+                    | 2013.12於人宇數位科技擔任UI UX
+                    br
+                    | 2015.2於口渴米菇互動多媒體擔任網頁設計師
+        div.text
+            h5 數位、設計、使用者心理很讓人著迷
+            p
+                | 習慣用google日曆記錄事情，手機及電腦裡有許多工具APP，覺得生活有這些數位工具真好。
+                br
+                | 認為設計不只是表面的樣貌，因為工作也接觸了很多客戶，暸解客戶並一起解決討論如何解決他們的需求。
+                br
+                | 總是想著「為什麼」，客戶為什麼不喜歡？為什麼沒人用？為什麼成效不好？使用者為什麼要這樣做？很多個為什麼所以對GA的數據很有興趣。
+        div.text
+            h5 興趣：做菜
+            p
+                | 很喜歡吃，很喜歡自己做菜，很喜歡在家生活。
+        div.text
+            h5 使用的工具
+            p
+                | Photoshop, illustrator, html/html5/jade, css/css3/sass, github, jQuery, GA, UTM, Sublime Text 3
+    // SnapWidget
+    script(src='https://snapwidget.com/js/snapwidget.js')
+    include ./jade/footer.jade
