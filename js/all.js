@@ -1,20 +1,5 @@
 //------------- 手機下拉選單 -----
-var NVB,GO;
-var NavBar = function() {
-    var changeIcon = function() {
-        $('.menu').bind('click', function() {
-            $('.menu').toggleClass('fa-bars fa-times');
-        })
-    }
-    var slideMenu = function() {
-        $('.menu').bind('click', function() {
-            $('#phone_menu').toggleClass('slide_menu open_menu');
-        })
-    }
-    changeIcon();
-    slideMenu();
-};
-
+var NVB,GO,NAV;
 //------------- go top -----
 var GoTop = function() {
     $('.gotop').on('click', function (e) {
@@ -25,12 +10,27 @@ var GoTop = function() {
     });
 }
 
-
+//------------- NAV -----
+var Nav = function() {
+    var openNav = function() {
+        $('.nav').bind('click', function() {
+            $('nav').toggleClass('slide_menu open_menu');
+        })
+    }
+    var changeIcon = function() {
+        $('.nav').bind('click', function() {
+            $('.nav i').toggleClass('fa-ellipsis-h fa-times');
+            $('body').toggleClass('open close');
+        })
+    }
+    openNav();
+    changeIcon();
+};
 // --------------------------------------------------
 
 var init = function() {
-    NVB = new NavBar();
     GO = new GoTop();
+    NAV = new Nav();
 }
 
 //------------- Jquery 載入後開始執行 -----

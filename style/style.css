@@ -24,9 +24,83 @@ body{
     letter-spacing: 1px;
     font-weight: normal;
 }
+html, body{
+    height: 100%;
+}
 
 /*-----------------------------------------------------------*/
-
+/*---nav---*/
+body.open{
+    overflow: visible;
+}
+body.close{
+    overflow: hidden;
+}
+nav{
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    right: 0;
+    top: -310px;
+    width: 50%;
+    max-width: 300px;
+    height: 100%;
+    background: rgba(158,176,41,0.9);
+}
+.slide_menu{
+    display: none;
+}
+.open_menu{
+    display: block;
+}
+nav ul{
+    margin-top: 80px;
+    display: inline-block;
+}
+nav ul li{
+    margin-top: 20px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+nav ul li a i{
+    display: block;
+    margin-left: 10px;
+}
+@media screen and (max-width: 639px) {
+    nav{
+        width: 100%;
+        max-width: none;
+    }
+}
+/*nav .close{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 55px;
+    text-align: center;
+    cursor: pointer;
+}
+nav .close:hover{
+    background: #fff;
+}
+nav .close:hover i{
+    color: #c5dd36;
+}
+nav .close i{
+    font-size: 30px;
+    color: #fff;
+}
+nav .close i:before{
+    display: block;
+    margin-top: 15px;
+}*/
+/*---header---*/
 header {
     position: relative;
     z-index: 2;
@@ -51,6 +125,45 @@ header  a > img{
     margin: 0 auto;
     margin-top: 12px;
 }
+header .nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+}
+header .nav i{
+    color: #c5dd36;
+    font-size: 35px;
+}
+header .nav:hover{
+    background: #c5dd36;
+}
+header .nav:hover i{
+    color: #fff;
+}
+header .nav i:before{
+    display: block;
+    margin: 10px 0 0 15px;
+}
+header .mail{
+    color: #c5dd36;
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 25px;
+}
+header .mail i{
+    margin: 12px 0 0 15px;
+}
+header .mail:hover{
+    background: #c5dd36;
+    color: #fff;
+}
+/*---KV---*/
 .KV{
     position: absolute;
     z-index: 1;

@@ -27,12 +27,34 @@ head
     script(src='https://use.typekit.net/yoi5czw.js')
     script.
         try{Typekit.load({ async: true });}catch(e){}
-body
+body.open
+    nav.slide_menu
+        ul
+            li
+                a(href="index.html") Home
+                    i.fa.fa-long-arrow-right(aria-hidden='true')
+            li
+                a(href="about.html") About
+                    i.fa.fa-long-arrow-right(aria-hidden='true')
+            li
+                a(href="https://www.facebook.com/cyouz", target='_blank') facebook
+                    i.fa.fa-facebook-official(aria-hidden='true')
+            li
+                a(href="https://www.instagram.com/chenyouz/", target='_blank') instagram
+                    i.fa.fa-instagram(aria-hidden='true')
     if header == false
         header
             a(href="index.html")
                 img(src="images/logo.png", alt="")
+            div.nav
+                i.fa.fa-ellipsis-h(aria-hidden='true')
+            a.mail(href="mailto:chenyouz@outlook.com")
+                i.fa.fa-envelope(aria-hidden='true') 
     else
         header.info
             a(href="index.html")
                 img(src="images/logo.png", alt="")
+            div.nav
+                i.fa.fa-ellipsis-h(aria-hidden='true')
+            a.mail(href="mailto:chenyouz@outlook.com")
+                i.fa.fa-envelope(aria-hidden='true') 
