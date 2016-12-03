@@ -38,12 +38,12 @@ header {
     -moz-box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
     box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
     overflow: hidden;
+    position: fixed;
 }
 header.info{
     -webkit-box-shadow: -1px 5px 25px -1px rgba(100,100,100,0.7);
     -moz-box-shadow: -1px 5px 25px -1px rgba(100,100,100,0.7);
     box-shadow: -1px 5px 25px -1px rgba(100,100,100,0.7);
-    position: fixed;
 }
 header  a > img{
     width: 79px;
@@ -58,6 +58,7 @@ header  a > img{
     width: 100%;
     height: 355px;
     background: #c5dd36;
+    margin-top: -310px;
 }
 .KV > img{
     width: 200px;
@@ -105,7 +106,7 @@ header  a > img{
     margin: 60px auto;
 }
 .article_hr{
-    margin-top: 20px;
+    margin-top: 60px;
 }
 /*---footer---*/
 footer{
@@ -154,6 +155,7 @@ footer .gotop{
     }
 .work{
     margin-top: 305px;
+    overflow: hidden;
 }
 .work > h1, .life > h1{
         font-size: 30px;
@@ -264,7 +266,7 @@ footer .gotop{
     width: 100%;
     height: 480px;
 }
-.ctbc, .eat, .choice, .owlpass, .checiao{
+.ctbc, .eat, .choice, .owlpass, .checiao, .try{
     margin-top: -690px;
 }
 .ctbc{
@@ -285,6 +287,10 @@ footer .gotop{
 }
 .checiao{
     background: url(../images/checiao/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.try{
+    background: url(../images/try_go/top_img.jpg)center center no-repeat;
     background-size: cover;
 }
 .work_KV .title{
@@ -374,6 +380,7 @@ article{
     height: auto;
     margin: 0 auto;
     margin-top: 690px;
+    overflow: hidden;
 }
 article .img_left, article .img_one, article .text, article .img_two{
     margin-bottom: 50px;

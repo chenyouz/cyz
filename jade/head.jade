@@ -27,3 +27,12 @@ head
     script(src='https://use.typekit.net/yoi5czw.js')
     script.
         try{Typekit.load({ async: true });}catch(e){}
+body
+    if header == false
+        header
+            a(href="index.html")
+                img(src="images/logo.png", alt="")
+    else
+        header.info
+            a(href="index.html")
+                img(src="images/logo.png", alt="")
