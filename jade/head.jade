@@ -1,63 +1,66 @@
-head
-    meta(charset='UTF-8')
-    title cyz
-    meta(http-equiv='X-UA-Compatible', content='IE=edge ,chrome=1')
-    meta(name='viewport', content='width=device-width, initial-scale=1 , user-scalable=no')
-    meta(name='description', content='web design')
-    meta(name='keywords', content='web design,網頁設計,設計')
-    link(rel='shortcut icon', type='image/png', href='images/icon.png')
-    meta(property='og:image', content='http://cyz/images/og.jpg')
-    meta(property='og:title', content='柚子設計')
-    meta(property='og:description', content='')
-    meta(property='og:url', content='http://www.cyz.ninja/')
-    meta(property='og:site_name', content='CYZ')
-    meta(property='og:type', content='website')
-    //if lt IE 9
-      script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
-    // normalize
-    link(rel='stylesheet', href='style/normalize.css')
-    // awesome font
-    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
-    link(rel='stylesheet', href='style/style.css')
-    // Jquery
-    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
-    //all
-    script(type='text/javascript', src='js/all.js')
-    // 思源
-    script(src='https://use.typekit.net/yoi5czw.js')
-    script.
-        try{Typekit.load({ async: true });}catch(e){}
-body.open
-    nav.slide_menu
-        ul
-            li
-                a(href="index.html") Home
-                    i.fa.fa-long-arrow-right(aria-hidden='true')
-            li
-                a(href="about.html") About
-                    i.fa.fa-long-arrow-right(aria-hidden='true')
-            li
-                a(href="https://www.facebook.com/cyouz", target='_blank') facebook
-                    i.fa.fa-facebook-official(aria-hidden='true')
-            li
-                a(href="https://www.instagram.com/chenyouz/", target='_blank') instagram
-                    i.fa.fa-instagram(aria-hidden='true')
-            li
-                a(href="https://github.com/chenyouz", target='_blank') github
-                    i.fa.fa-github(aria-hidden='true')
-    if header == false
-        header
-            a(href="index.html")
-                img(src="images/logo.png", alt="")
-            div.nav
-                i.fa.fa-ellipsis-h(aria-hidden='true')
-            a.mail(href="mailto:chenyouz@outlook.com")
-                i.fa.fa-envelope(aria-hidden='true') 
-    else
-        header.info
-            a(href="index.html")
-                img(src="images/logo.png", alt="")
-            div.nav
-                i.fa.fa-ellipsis-h(aria-hidden='true')
-            a.mail(href="mailto:chenyouz@outlook.com")
-                i.fa.fa-envelope(aria-hidden='true') 
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title cyz
+        meta(http-equiv='X-UA-Compatible', content='IE=edge ,chrome=1')
+        meta(name='viewport', content='width=device-width, initial-scale=1 , user-scalable=no')
+        meta(name='description', content='web design')
+        meta(name='keywords', content='web design,網頁設計,設計')
+        link(rel='shortcut icon', type='image/png', href='images/icon.png')
+        meta(property='og:image', content='http://cyz/images/og.jpg')
+        meta(property='og:title', content='柚子設計')
+        meta(property='og:description', content='')
+        meta(property='og:url', content='http://www.cyz.ninja/')
+        meta(property='og:site_name', content='CYZ')
+        meta(property='og:type', content='website')
+        //if lt IE 9
+          script(src='http://html5shiv.googlecode.com/svn/trunk/html5.js')
+        // normalize
+        link(rel='stylesheet', href='style/normalize.css')
+        // awesome font
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+        link(rel='stylesheet', href='style/style.css')
+        // Jquery
+        script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+        //all
+        script(type='text/javascript', src='js/all.js')
+        // 思源
+        script(src='https://use.typekit.net/yoi5czw.js')
+        script.
+            try{Typekit.load({ async: true });}catch(e){}
+    body.open
+        nav.slide_menu
+            ul
+                li
+                    a(href="index.html") Home
+                        i.fa.fa-long-arrow-right(aria-hidden='true')
+                li
+                    a(href="about.html") About
+                        i.fa.fa-long-arrow-right(aria-hidden='true')
+                li
+                    a(href="https://www.facebook.com/cyouz", target='_blank') facebook
+                        i.fa.fa-facebook-official(aria-hidden='true')
+                li
+                    a(href="https://www.instagram.com/chenyouz/", target='_blank') instagram
+                        i.fa.fa-instagram(aria-hidden='true')
+                li
+                    a(href="https://github.com/chenyouz", target='_blank') github
+                        i.fa.fa-github(aria-hidden='true')
+        if header == false
+            header
+                a(href="index.html")
+                    img(src="images/logo.png", alt="")
+                div.nav
+                    i.fa.fa-ellipsis-h(aria-hidden='true')
+                a.mail(href="mailto:chenyouz@outlook.com")
+                    i.fa.fa-envelope(aria-hidden='true') 
+        else
+            header.info
+                a(href="index.html")
+                    img(src="images/logo.png", alt="")
+                div.nav
+                    i.fa.fa-ellipsis-h(aria-hidden='true')
+                a.mail(href="mailto:chenyouz@outlook.com")
+                    i.fa.fa-envelope(aria-hidden='true') 
+    
