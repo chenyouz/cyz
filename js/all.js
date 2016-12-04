@@ -21,7 +21,7 @@ var Nav = function() {
     }
     var changeIcon = function() {
         $('.nav').bind('click', function() {
-            $('.nav i').toggleClass('fa-ellipsis-h fa-times');
+            $('.nav i').toggleClass('fa-ellipsis-h fa-ellipsis-v');
         })
     }
     openNav();

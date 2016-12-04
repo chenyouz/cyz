@@ -129,6 +129,10 @@ header .nav i:before{
     display: block;
     margin: 10px 0 0 15px;
 }
+.fa-ellipsis-v:before{
+    display: block;
+    padding-left: 12px;
+}
 header .mail{
     color: #c5dd36;
     width: 60px;
