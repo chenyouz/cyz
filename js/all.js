@@ -15,12 +15,13 @@ var Nav = function() {
     var openNav = function() {
         $('.nav').bind('click', function() {
             $('nav').toggleClass('slide_menu open_menu');
+            $('body').toggleClass('open close');
+            $('body, html').toggleClass('nav_height_open nav_height_close');
         })
     }
     var changeIcon = function() {
         $('.nav').bind('click', function() {
             $('.nav i').toggleClass('fa-ellipsis-h fa-times');
-            $('body').toggleClass('open close');
         })
     }
     openNav();

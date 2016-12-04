@@ -24,14 +24,17 @@ body{
     letter-spacing: 1px;
     font-weight: normal;
 }
-html, body{
-    height: 100%;
-}
 h5{
     margin: 0;
 }
 /*-----------------------------------------------------------*/
 /*---nav---*/
+.nav_height_open{
+    height: 100%;
+}
+.nav_height_close{
+    height: auto;
+}
 body.open{
     overflow: visible;
 }
@@ -88,21 +91,20 @@ header {
     background: #fff;
     width: 100%;
     height: 50px;
-    -webkit-box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
-    -moz-box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
-    box-shadow: -1px 5px 25px -1px rgba(158,176,41,1);
-    overflow: hidden;
-    position: fixed;
-}
-header.info{
     -webkit-box-shadow: -1px 5px 25px -1px rgba(100,100,100,0.7);
     -moz-box-shadow: -1px 5px 25px -1px rgba(100,100,100,0.7);
     box-shadow: -1px 5px 25px -1px rgba(100,100,100,0.7);
+    overflow: hidden;
+    position: fixed;
+}
+header  a {
+    width: 79px;
+    display: block;
+    margin: 0 auto;
 }
 header  a > img{
     width: 79px;
     display: block;
-    margin: 0 auto;
     margin-top: 12px;
 }
 header .nav{
@@ -226,6 +228,7 @@ footer .gotop{
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
+    cursor: pointer;
 }
 @media screen and (max-width: 840px) and (min-width: 640px){
     footer .gotop > img{
