@@ -1,8 +1,8 @@
 //------------- 手機下拉選單 -----
-var NVB,GO,NAV;
+var NVB, GO, NAV;
 //------------- go top -----
 var GoTop = function() {
-    $('.gotop').on('click', function (e) {
+    $('.gotop').on('click', function(e) {
         e.preventDefault();
         $('html,body').animate({
             scrollTop: 0
@@ -27,7 +27,7 @@ var Nav = function() {
     openNav();
     changeIcon();
 };
-// --------------------------------------------------
+
 
 var init = function() {
     GO = new GoTop();

@@ -32,22 +32,22 @@
   <body class="open">
     <nav class="slide_menu">
       <ul>
-        <li><a href="index.html">Home<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
-        <li><a href="about.html">About<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
-        <li><a href="https://www.facebook.com/cyouz" target="_blank">facebook<i aria-hidden="true" class="fa fa-facebook-official"></i></a></li>
-        <li><a href="https://www.instagram.com/chenyouz/" target="_blank">instagram<i aria-hidden="true" class="fa fa-instagram"></i></a></li>
-        <li><a href="https://github.com/chenyouz" target="_blank">github<i aria-hidden="true" class="fa fa-github"></i></a></li>
+        <li><a href="index.html" onclick="bga('選單/首頁')">Home<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
+        <li><a href="about.html" onclick="bga('選單/關於')">About<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
+        <li><a href="https://www.facebook.com/cyouz" target="_blank" onclick="bga('選單/facebook')">facebook<i aria-hidden="true" class="fa fa-facebook-official"></i></a></li>
+        <li><a href="https://www.instagram.com/chenyouz/" target="_blank" onclick="bga('選單/instagram')">instagram<i aria-hidden="true" class="fa fa-instagram"></i></a></li>
+        <li><a href="https://github.com/chenyouz" target="_blank" onclick="bga('選單/github')">github<i aria-hidden="true" class="fa fa-github"></i></a></li>
       </ul>
     </nav>
-    <header><a href="index.html"><img src="images/logo.png" alt=""></a>
-      <div class="nav"><i aria-hidden="true" class="fa fa-ellipsis-h"></i></div><a href="mailto:chenyouz@outlook.com" class="mail"><i aria-hidden="true" class="fa fa-envelope"> </i></a>
+    <header><a href="index.html" onclick="bga('header/logo')"><img src="images/logo.png" alt=""></a>
+      <div class="nav"><i aria-hidden="true" class="fa fa-ellipsis-h"></i></div><a href="mailto:chenyouz@outlook.com" onclick="bga('header/信箱')" class="mail"><i aria-hidden="true" class="fa fa-envelope"> </i></a>
     </header>
   </body>
 </html>
 <section class="work_KV owlpass">
   <div class="title"><span></span>
     <h1>強力徵求地表最強暖男</h1>
-    <h2>owlpass雲端男友票選活動</h2><a href="http://cuescoial.myowlpass.com/index.html" target="_blank" class="url">view site</a>
+    <h2>owlpass雲端男友票選活動</h2><a href="http://cuescoial.myowlpass.com/index.html" target="_blank" onclick="bga('owlpass/外連')" class="url">view site</a>
   </div>
 </section>
 <article><span class="article_hr"></span>
@@ -86,7 +86,7 @@
   <div class="img_two"><img src="images/owlpass/3.jpg" alt="" class="left"><img src="images/owlpass/4.jpg" alt="" class="right"></div>
   <div class="img_one"><img src="images/owlpass/5.jpg" alt=""></div><span class="article_hr"></span>
 </article>
-<section class="info"><a href="http://cuescoial.myowlpass.com/index.html" target="_blank" class="url">cuescoial.myowlpass.com</a>
+<section class="info"><a href="http://cuescoial.myowlpass.com/index.html" target="_blank" onclick="bga('owlpass/外連')" class="url">cuescoial.myowlpass.com</a>
   <ul class="name_list">
     <li><span>客戶</span><span class="who">新立方社群</span></li>
     <li><span>製作公司</span><span class="who">口渴米菇互動多媒體</span></li>
@@ -98,3 +98,4 @@
   <p>©2016 cyz</p>
   <div class="gotop"><img src="images/gotop.png" alt=""></div>
 </footer>
+<script type="text/javascript" src="js/ga.js"></script>
