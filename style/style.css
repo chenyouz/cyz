@@ -366,7 +366,7 @@ footer .gotop{
     width: 100%;
     height: 480px;
 }
-.ctbc, .eat, .choice, .owlpass, .checiao, .try{
+.ctbc, .eat, .choice, .owlpass, .checiao, .try, .red, .chec_card, .chec_mom{
     margin-top: -690px;
 }
 .ctbc{
@@ -391,6 +391,18 @@ footer .gotop{
 }
 .try{
     background: url(../images/try_go/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.red{
+    background: url(../images/red_drug/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.chec_card{
+    background: url(../images/checiao_card/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.chec_mom{
+    background: url(../images/checiao_mom/top_img.jpg)center center no-repeat;
     background-size: cover;
 }
 .work_KV .title{
@@ -637,6 +649,23 @@ article .color > ul li span{
 }
 .chec_tb3{
     background: #f8882b;
+}
+
+/*---紅神孅---*/
+.red_bb1{
+    background: #ff56a2;
+}
+.red_bb2{
+    background: #c3204a;
+}
+.red_bb3{
+    background: #f3f3f3;
+}
+.red_tb1{
+    background: #ff56a2;
+}
+.red_tb2{
+    background: #ffffff;
 }
 @media screen and (min-width: 640px) and (max-width: 1023px){
     article{

@@ -11,8 +11,8 @@
 })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 ga('create', 'UA-87028407-1', 'auto');
 ga('send', 'pageview');
-ga('send', 'event', 'btn', 'click');
 ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
 
 function bga(str) {
     console.log('str:' + str)

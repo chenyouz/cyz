@@ -8,9 +8,9 @@
     <meta name="description" content="web design">
     <meta name="keywords" content="web design,網頁設計,設計">
     <link rel="shortcut icon" type="image/png" href="images/icon.png">
-    <meta property="og:image" content="http://cyz/images/og.jpg">
+    <meta property="og:image" content="http://www.cyz.ninja/images/og.jpg">
     <meta property="og:title" content="柚子設計">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="網頁設計師，協助客戶一起解決問題">
     <meta property="og:url" content="http://www.cyz.ninja/">
     <meta property="og:site_name" content="CYZ">
     <meta property="og:type" content="website">
@@ -32,22 +32,22 @@
   <body class="open">
     <nav class="slide_menu">
       <ul>
-        <li><a href="index.html">Home<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
-        <li><a href="about.html">About<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
-        <li><a href="https://www.facebook.com/cyouz" target="_blank">facebook<i aria-hidden="true" class="fa fa-facebook-official"></i></a></li>
-        <li><a href="https://www.instagram.com/chenyouz/" target="_blank">instagram<i aria-hidden="true" class="fa fa-instagram"></i></a></li>
-        <li><a href="https://github.com/chenyouz" target="_blank">github<i aria-hidden="true" class="fa fa-github"></i></a></li>
+        <li><a href="index.html" onclick="bga('選單/首頁')">Home<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
+        <li><a href="about.html" onclick="bga('選單/關於')">About<i aria-hidden="true" class="fa fa-long-arrow-right"></i></a></li>
+        <li><a href="https://www.facebook.com/cyouz" target="_blank" onclick="bga('選單/facebook')">facebook<i aria-hidden="true" class="fa fa-facebook-official"></i></a></li>
+        <li><a href="https://www.instagram.com/chenyouz/" target="_blank" onclick="bga('選單/instagram')">instagram<i aria-hidden="true" class="fa fa-instagram"></i></a></li>
+        <li><a href="https://github.com/chenyouz" target="_blank" onclick="bga('選單/github')">github<i aria-hidden="true" class="fa fa-github"></i></a></li>
       </ul>
     </nav>
-    <header class="info"><a href="index.html"><img src="images/logo.png" alt=""></a>
-      <div class="nav"><i aria-hidden="true" class="fa fa-ellipsis-h"></i></div><a href="mailto:chenyouz@outlook.com" class="mail"><i aria-hidden="true" class="fa fa-envelope"> </i></a>
+    <header><a href="index.html" onclick="bga('header/logo')"><img src="images/logo.png" alt=""></a>
+      <div class="nav"><i aria-hidden="true" class="fa fa-ellipsis-h"></i></div><a href="mailto:chenyouz@outlook.com" onclick="bga('header/信箱')" class="mail"><i aria-hidden="true" class="fa fa-envelope"> </i></a>
     </header>
   </body>
 </html>
 <div class="KV"> <img src="images/grapefruit.png" alt="">
   <div class="infobox">
     <div class="info"><img src="images/logo2.png" alt="">
-      <div><a href="tel:+886912810615"><i aria-hidden="true" class="fa fa-phone">0912810615</i></a><a href="mailto:chenyouz@outlook.com"><i aria-hidden="true" class="fa fa-envelope">chenyouz@outlook.com</i></a><a href="http://www.cyz.ninja/"><i aria-hidden="true" class="fa fa-link">cyz.ninja</i></a></div>
+      <div><a href="tel:+886912810615" onclick="bga('關於/電話')"><i aria-hidden="true" class="fa fa-phone">0912810615</i></a><a href="mailto:chenyouz@outlook.com" onclick="bga('關於/信箱')"><i aria-hidden="true" class="fa fa-envelope">chenyouz@outlook.com</i></a><a href="http://www.cyz.ninja/"><i aria-hidden="true" onclick="bga('關於/網站')" class="fa fa-link">cyz.ninja</i></a></div>
     </div>
   </div>
 </div>
@@ -83,3 +83,4 @@
   <p>©2016 cyz</p>
   <div class="gotop"><img src="images/gotop.png" alt=""></div>
 </footer>
+<script type="text/javascript" src="js/ga.js"></script>
