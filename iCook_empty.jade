@@ -1,0 +1,64 @@
+include ./jade/head.jade
+section.work_KV.iCook_empty
+    div.title
+        span
+        h1 讓使用者在空狀態有下一步行動
+        h2 愛料理 web/app 空狀態優化
+article
+    span.article_hr
+    div.text
+        h5 改善現有空狀態混亂
+        p
+            | 原有版本不管是 web 或是 app 的空狀態沒有明顯指引使用者下一步，不然就是沒有任何狀態說明，插圖也沒有因應狀態區分。
+    div.img_one
+        img(src="images/iCookEmpty/1.jpg", alt="")
+    div.img_left
+        img(src="images/iCookEmpty/2.jpg", alt="")
+        div
+            h5 整理每一個空狀態需要指引的下一步
+            p
+                | 使用者資訊頁面空狀態：引導使用者去讓空狀態消失的動作，例：使用者沒有收藏食譜，引導至首頁逛食譜，進而收藏食譜。
+                br
+                br    
+                | 搜尋結果：讓使用者清楚知道沒有結果的原因，可能需要把關鍵字加入空格或是沒有相關資訊。
+                br
+                br
+                | 錯誤狀態：針對網路沒有連線或是資訊被移除時，讓使用者能夠有回報機制，並讓使用者不要擔心。
+    div.text
+        h5 使用情境式文字及插圖
+        p
+            | 情境式圖文讓整體氛圍較為溫暖，針對使用者角度設計圖文，以使用者在意的特點為重點去訴說。
+    div.img_one
+        img(src="images/iCookEmpty/3.jpg", alt="")
+     div.text
+        h5 web 與 app 使用上文字的差異微調
+        p
+            | web 與 app 使用情境上略有不同，針對情況做文字及引導動作調整。
+    div.img_two
+        img.left(src="images/iCookEmpty/7.jpg", alt="")
+        img.right(src="images/iCookEmpty/4.jpg", alt="")
+    div.img_two
+        img.left(src="images/iCookEmpty/5.jpg", alt="")
+        img.right(src="images/iCookEmpty/6.jpg", alt="")
+    div.text
+        h5 placeholder
+        p
+            | 如使用者的沒有上傳圖片，將會有 placeholder 當作預設畫片，以及在 loading 時出現。
+    div.img_one
+        img(src="images/iCookEmpty/8.jpg", alt="")
+    span.article_hr
+section.info
+    ul.name_list
+        li
+            span 產品服務
+            span.who iCook 愛料理
+        li
+            span 文案
+            span.who Emily
+        li
+            span UI/UX
+            span.who 柚子
+        li
+            span 視覺
+            span.who 柚子
+include ./jade/footer.jade

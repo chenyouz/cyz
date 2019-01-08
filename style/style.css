@@ -192,7 +192,7 @@ header .mail:hover{
 }
 .KV .infobox .info div > a i{
     display: block;
-    margin: 0 20px 15px 0;
+    margin: 0 20px 10px 0;
 }
 .KV .infobox .info a .fa:before{
     margin-right: 8px;
@@ -359,6 +359,13 @@ footer .gotop{
     margin-bottom: 50px;
 }
 /*-----------------------------work內頁------------------------------*/
+/*---video---*/
+.video-js{
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 .work_KV{
     position: absolute;
     z-index: 1;
@@ -366,7 +373,7 @@ footer .gotop{
     width: 100%;
     height: 480px;
 }
-.ctbc, .eat, .choice, .owlpass, .checiao, .try, .red, .chec_card, .chec_mom{
+.ctbc, .eat, .choice, .owlpass, .checiao, .try, .red, .chec_card, .chec_mom, .iCook_vipX, .iCook_market_XMAS, .iCook_heiza, .iCook_CNY, .iCook_video, .iCook_market11, .iCook_scratch_of, .iCook_weekmenu, .iCook_VipApp, .iCook_job, .iCook_chatbot, .iCook_template, .iCook_award, .iCook_empty{
     margin-top: -690px;
 }
 .ctbc{
@@ -403,6 +410,75 @@ footer .gotop{
 }
 .chec_mom{
     background: url(../images/checiao_mom/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_vipX
+{
+    background: url(../images/iCookVipX/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_market_XMAS
+{
+    background: url(../images/iCookMarketXAMS/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_heiza
+{
+    background: url(../images/iCookHeinz/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_CNY
+{
+    background: url(../images/iCookCNY/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_video
+{
+    background: url(../images/iCookVideo/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_market11
+{
+    background: url(../images/iCookMarket11/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_scratch_of
+{
+    background: url(../images/iCookScratchOf/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_weekmenu
+{
+    background: url(../images/iCookWeekmenu/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_VipApp
+{
+    background: url(../images/iCookVipApp/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_job
+{
+    background: url(../images/iCookJob/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_chatbot
+{
+    background: url(../images/iCookChatbot/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_template
+{
+    background: url(../images/iCookTemplate/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_award
+{
+    background: url(../images/iCookAward/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.iCook_empty{
+    background: url(../images/iCookEmpty/top_img.jpg)center center no-repeat;
     background-size: cover;
 }
 .work_KV .title{
@@ -442,7 +518,7 @@ footer .gotop{
     font-size: 17px;
 }
 .url:hover{
-    background: #dddddd;
+    background: #daee61;
 }
 .work_KV .title > a{
     width: 147px;
@@ -499,7 +575,7 @@ article{
     margin-top: 0;
 }
 article .img_left, article .img_one, article .text, article .img_two{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 article .img_left{
     overflow: hidden;
@@ -512,10 +588,19 @@ article .img_left > div > h5, article .text > h5{
     font-size: 17px;
     font-weight: normal;
 }
+article .img_left > div > h4, article .text > h4{
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0px;
+    margin-top: 15px
+}
 article .img_left > div > p, article .text > p{
     font-size: 15px;
     line-height: 1.8;
     color: #8b8b8b;
+    margin: 0px;
+    margin-top: 5px;
 }
 article .img_one > img{
     max-width: 1000px;
@@ -552,7 +637,7 @@ article .logotype > img{
         max-width: 500px;
     }
 }
-article .color > h5{
+article .color > h5, article .logotype > h5{
     font-size: 15px;
     margin: 10px 0;
 }
@@ -695,6 +780,9 @@ article .color > ul li span{
         float: none;
         max-width: 500px;
         margin: 0 20px;
+    }
+    article .logotype > h5{
+        margin: 10px 20px;
     }
     article .img_two .left, article .img_two .right{
         width: 100%;

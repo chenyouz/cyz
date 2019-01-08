@@ -1,0 +1,39 @@
+include ./jade/head.jade
+section.work_KV.iCook_video
+    div.title
+        span
+        h1 今天吃什麼？
+        h2 愛料理 app 介紹影片
+article
+    span.article_hr
+    div.text
+        h5 產品重點分階段說明
+        p
+            | 以「今天吃什麼？」生活化情境帶入，慢慢介紹產品的特色，搭配輕快音樂，讓人可以輕鬆看完。
+            | 同時製作 iOS 及 Android 的簡中繁中版本。
+    video(id="video1" class="video-js vjs-default-skin vjs-big-play-centered" poster="images/iCookVideo/video-cover.jpg" controls="controls" type="video/mp4" width="336")
+        source(id="sourceBox" src="images/iCookVideo/ios_zh.mp4")
+        p.vjs-no-js 不支援播放喔！
+    span.article_hr
+section.info
+    ul.name_list
+        li
+            span 產品服務
+            span.who iCook 愛料理
+        li
+            span 文案
+            span.who Emily
+        li
+            span 視覺設計
+            span.who 柚子
+        li
+            span 影片動態
+            span.who 柚子
+script(type='text/javascript').
+    var oV = videojs('#video1');
+    oV.src="images/iCookVideo/ios_zh.mp4";
+    oV.load();
+    oV.width(336).height(600);
+    oV.paly();
+    oV.pause();
+include ./jade/footer.jade
