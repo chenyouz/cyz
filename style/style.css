@@ -27,6 +27,9 @@ body{
 h5{
     margin: 0;
 }
+h1, h2, h3, h4, h5{
+    color: #282923;
+}
 /*-----------------------------------------------------------*/
 /*---nav---*/
 .nav_height_open{
@@ -373,7 +376,7 @@ footer .gotop{
     width: 100%;
     height: 480px;
 }
-.ctbc, .eat, .choice, .owlpass, .checiao, .try, .red, .chec_card, .chec_mom, .iCook_vipX, .iCook_market_XMAS, .iCook_heiza, .iCook_CNY, .iCook_video, .iCook_market11, .iCook_scratch_of, .iCook_weekmenu, .iCook_VipApp, .iCook_job, .iCook_chatbot, .iCook_template, .iCook_award, .iCook_empty{
+.ctbc, .eat, .choice, .owlpass, .checiao, .try, .red, .chec_card, .chec_mom, .iCook_vipX, .iCook_market_XMAS, .iCook_heiza, .iCook_CNY, .iCook_video, .iCook_market11, .iCook_scratch_of, .iCook_weekmenu, .iCook_VipApp, .iCook_job, .iCook_chatbot, .iCook_template, .iCook_award, .iCook_empty, .CS_anniversary, .CS_member, .CS_design, .CS_early{
     margin-top: -690px;
 }
 .ctbc{
@@ -479,6 +482,22 @@ footer .gotop{
 }
 .iCook_empty{
     background: url(../images/iCookEmpty/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.CS_anniversary{
+    background: url(../images/CSAnniversary/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.CS_member{
+    background: url(../images/CSMember/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.CS_design{
+    background: url(../images/CSdesign/top_img.jpg)center center no-repeat;
+    background-size: cover;
+}
+.CS_early{
+    background: url(../images/CSearly/top_img.jpg)center center no-repeat;
     background-size: cover;
 }
 .work_KV .title{

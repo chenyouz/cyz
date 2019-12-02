@@ -1,0 +1,38 @@
+include ./jade/head.jade
+section.work_KV.CS_design
+    div.title
+        span
+        h1 讓視覺統一調性
+        h2 citiesocial design guide
+article
+    span.article_hr
+    div.text
+        h5 原本無 design guide，顏色雜亂、元件不一致
+        p
+            | 相同用法的元件，卻有多種樣式及設定，技術及設計維護不易，視覺調性也較雜亂。
+        p
+            | 收斂多於相似顏色，並整理 web 和 app 的色碼，讓平台的顏色能夠統一一致。
+    div.text
+        h5 定義主色及輔助色
+        p
+            | 定義主色後以 Sass 寫法延伸主色的顏色，讓技術與設計更好配合。
+    div.img_one
+        img(src="images/CSdesign/1.jpg", alt="")
+    div.img_one
+        img(src="images/CSdesign/2.jpg", alt="")
+    div.text
+        h5 客制 icon 並整理優化
+        p
+            | 利用 IcoMoon 來製作 icon font，調整一致粗細、風格。
+    div.img_one
+        img(src="images/CSdesign/3.jpg", alt="")
+    span.article_hr
+section.info
+    ul.name_list
+        li
+            span 產品服務
+            span.who citiesocial
+        li
+            span UI/UX
+            span.who 柚子
+include ./jade/footer.jade
