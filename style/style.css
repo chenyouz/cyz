@@ -671,13 +671,6 @@ article .logotype > img{
     width: 100%;
     margin-bottom: 20px;
 }
-article .center{
-    margin: 0 auto;
-    max-width: 500px;
-    margin-bottom: 50px;
-    border: 2px solid #c5dd36;
-    padding: 20px; 
-}
 article .text ul{
     margin-top: 5px;
 }
