@@ -47,7 +47,7 @@ body.close{
 nav{
     position: fixed;
     text-align: center;
-    z-index: 2;
+    z-index: 4;
     right: 0;
     top: 0;
     width: 50%;
