@@ -608,7 +608,7 @@ footer .gotop{
 article{
     height: auto;
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 180px;
     overflow: hidden;
 }
 .about{
@@ -833,7 +833,7 @@ article .color > ul li span{
 @media screen and (max-width: 639px) {
     article{
         max-width: 500px;
-        margin-top: 100px;
+        margin-top: 130px;
     }
     article .img_left > img{
         width: 100%;
