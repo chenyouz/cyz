@@ -281,6 +281,15 @@ footer .gotop{
     display: block;
     text-align: left;
 }
+.work_list li:hover img{
+    -webkit-box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.2);
+    box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.2);
+    position:relative;
+    transform:translateY(-5%);
+    -ms-transform:translateY(-5%);
+    -webkit-transform:translateY(-5%);
+}
 .work .work_list li a h3{
     font-weight: normal;
     font-size: 15px;
@@ -305,7 +314,7 @@ footer .gotop{
         overflow: hidden;
     }
     .work_list li a > img{
-        width: 290px;
+        width: 100%;
     }
     .work_list li{
         display: block;
