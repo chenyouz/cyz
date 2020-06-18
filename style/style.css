@@ -187,7 +187,7 @@ header .mail:hover{
 }
 .KV .infobox .info  div > a{
     display: block;
-    color: #000;
+    color: #282923;
     font-size: 15px;
 }
 .KV .infobox .info  div > a:hover{
@@ -212,15 +212,15 @@ header .mail:hover{
 }
 /*---footer---*/
 footer{
-    height: 70px;
+    height: auto;
     background: #ddd;
     text-align: center;
 }
 footer > p{
-    line-height: 70px;
     font-size: 12px;
     letter-spacing: 3px;
     margin: 0;
+    padding: 20px 0 40px 0;
 }
 footer .gotop > img{
     width: 34px;
@@ -236,6 +236,24 @@ footer .gotop{
     max-width: 800px;
     margin: 0 auto;
     cursor: pointer;
+}
+footer .social{
+    display: inline-block;
+}
+footer .social li{
+    display: block;
+    float: left;
+    margin: 40px 10px 0 10px;
+}
+footer .social li a{
+    color: #282923;
+    font-size: 20px;
+}
+footer .social li:hover{
+    position: relative;
+    transform: translateY(-15%);
+    -ms-transform: translateY(-15%);
+    -webkit-transform: translateY(-15%);
 }
 @media screen and (max-width: 840px) and (min-width: 640px){
     footer .gotop > img{
@@ -294,7 +312,7 @@ footer .gotop{
     font-weight: normal;
     font-size: 15px;
     margin-top: 5px;
-    color: #000;
+    color: #282923;
 }
 .work .work_list li a span{
     display: block;
@@ -622,6 +640,11 @@ article{
 }
 .about{
     margin-top: 0;
+}
+.about .text h4{
+    color:#ABC02E;
+    font-weight: bold;
+    margin-top: 20px;
 }
 article .subtitle > h2{
     font-size: 24px;
