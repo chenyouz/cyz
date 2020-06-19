@@ -697,15 +697,24 @@ article{
 }
 @media screen and (max-width: 639px) {
     .about ul, .about .text ul.tool{
-    width: 400px;
+    width: 340px;
     }
     .about .text ul.tool li{
-    width: 150px;
-    height: 180px;
-    margin: 5px;
+    width: 160px;
+    height: 175px;
+    margin:5px;
+    padding: 10px;
     }
     .about .text ul.tool li h4{
         line-height: 0;
+    }
+    .live{
+        margin:0 auto;
+        width: 320px;
+    }
+    .live img{
+        width: 150px;
+        margin: 5px;
     }
 }
 article .subtitle > h2{
