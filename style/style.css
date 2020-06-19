@@ -642,9 +642,71 @@ article{
     margin-top: 0;
 }
 .about .text h4{
-    color:#ABC02E;
+    color: #282923;
     font-weight: bold;
     margin-top: 20px;
+}
+.about .process{
+    text-align: center;
+}
+.about .process ul{
+    text-align: center;
+    display: inline-block;
+}
+.about .process ul li{
+    display: block;
+    width: 150px;
+    float: left;
+    margin: 20px;
+}
+.about .process ul li img{
+    width: 85%;
+}
+.about .process h3{
+    font-size: 16px;
+    line-height: 1;
+}
+.about .process p{
+    color: #646464;
+    font-size: 14px;
+    line-height: 1;
+}
+.toolbox{
+    text-align: center;
+}
+.about .text ul.tool{
+    display: inline-block;
+}
+.about .text ul.tool li h4{
+    line-height: 0;
+}
+.about .text ul.tool li{
+    display: block;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    float: left;
+    width: 220px;
+    height: 150px;
+    margin: 20px;
+    padding: 15px;
+}
+.live img{
+    border-radius: 10px;
+    width: 160px;
+    margin: 20px;
+}
+@media screen and (max-width: 639px) {
+    .about ul, .about .text ul.tool{
+    width: 400px;
+    }
+    .about .text ul.tool li{
+    width: 150px;
+    height: 180px;
+    margin: 5px;
+    }
+    .about .text ul.tool li h4{
+        line-height: 0;
+    }
 }
 article .subtitle > h2{
     font-size: 24px;
