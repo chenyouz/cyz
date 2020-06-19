@@ -696,8 +696,11 @@ article{
     margin: 20px;
 }
 @media screen and (max-width: 639px) {
-    .about ul, .about .text ul.tool{
+    .about .text ul.tool{
     width: 340px;
+    }
+    .about ul{
+        width: 400px;
     }
     .about .text ul.tool li{
     width: 160px;
