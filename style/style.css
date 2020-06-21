@@ -280,6 +280,9 @@ footer .social li:hover{
     footer .gotop > img{
         right: 20px;
     }
+    .KV .infobox .info{
+        width: 300px;
+    }
 }
 /*---section---*/
 .work, .life{
