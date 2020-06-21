@@ -175,20 +175,24 @@ header .mail:hover{
 }
 .KV .infobox .info{
     position: absolute;
-    right: 25%;
-    top: -160px;
-}
-.KV .infobox .info > img{
-    width: 85px;
-    display: block;
+    right: 10%;
+    top: -220px;
+    width: 400px;
 }
 .KV .infobox .info div{
     margin-top: 20px;
 }
+.KV .infobox .info h2{
+    line-height: 0;
+}
+.KV .infobox .info p{
+    color: #646464;
+    font-size: 16px;
+}
 .KV .infobox .info  div > a{
     display: block;
     color: #282923;
-    font-size: 15px;
+    font-size: 12px;
 }
 .KV .infobox .info  div > a:hover{
     color: #dbdbdb;
@@ -196,6 +200,18 @@ header .mail:hover{
 .KV .infobox .info div > a i{
     display: block;
     margin: 0 20px 10px 0;
+}
+.KV .infobox .info div .btn{
+    background: #282923;
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+}
+.KV .infobox .info div .btn:hover{
+    background: #dbdbdb;
+    color: #282923;
 }
 .KV .infobox .info a .fa:before{
     margin-right: 8px;
@@ -207,6 +223,7 @@ header .mail:hover{
     border-top: 1px solid #dbdbdb;
     margin: 60px auto;
 }
+
 .article_hr{
     margin-top: 60px;
 }
